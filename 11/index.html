@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link includes an external CSS file for styling. -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Style contains internal CSS that applies directly to this page. -->
+    <style>
+      body {
+        background-color: gray;
+        color: white;
+      }
+    </style>
+    <title>iframes & Other Elements</title>
+  </head>
+  <body>
+    <!-- iframe embeds another webpage or resource inside this page. -->
+    <iframe
+      height="500"
+      width="700"
+      src="https://www.youtube.com"
+      frameborder="0"
+      sandbox=""
+    ></iframe>
+    <br />
+    <br />
+    <br />
+    <!-- progress shows task completion progress. Add value and max for actual progress. -->
+    <progress value="45" max="100">45%</progress>
+    <!-- canvas provides a drawing area for graphics via JavaScript. -->
+    <canvas width="500" height="200"></canvas>
+    <!-- Internal script executes JavaScript directly in the page. -->
+    <script>
+      alert("Hello World");
+    </script>
+    <!-- External scripts can be loaded with defer to run after parsing. -->
+    <script src="script.js" defer></script>
+  </body>
+</html>

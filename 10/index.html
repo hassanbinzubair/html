@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- Use form to collect user input. action defines the submission URL and method defines how data is sent. -->
+    <form action="action.html" method="get" enctype="multipart/form-data">
+      <!-- Label connects to the input using the for attribute. -->
+      <label for="name">User Name:</label>
+      <!-- Input type="text" adds a text field. required means the user must fill it out. -->
+      <input required id="name" name="name" type="text" placeholder="Enter your name" />
+      <br />
+      <br />
+      <label for="mail">Email:</label>
+      <!-- Input type="email" validates the text as an email address. -->
+      <input
+        required
+        type="email"
+        name="mail"
+        id="mail"
+        placeholder="Enter Your Email"
+      />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <!-- Input type="password" hides the entered text. -->
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter your password"
+      />
+      <br />
+      <br />
+      <label for="phone">Phone Number</label>
+      <!-- Input type="tel" is used for telephone numbers. disabled makes this field read-only. -->
+      <input
+        disabled
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Enter Phone Number"
+      />
+      <br />
+      <br />
+      <label for="sendsms">Do you want to receive SMS?</label>
+      <!-- Checkbox allows a yes/no choice. -->
+      <input type="checkbox" name="sendsms" id="sendsms" />
+      <br />
+      <br />
+      <!-- Some less commonly used input types are shown below. -->
+      <!-- <input type="range" name="" id=""> -->
+      <!-- <input type="color" name="" id=""> -->
+      <!-- <input type="datetime-local" name="" id=""> -->
+      <!-- <input type="button" value="Click"> -->
+      <br />
+      <!-- Hidden inputs store data that users do not see. -->
+      <input type="hidden" name="keys" value="1000-234-54332" />
+      <label for="fno">Form Number</label>
+      <!-- Input type="number" allows numeric entry and supports min/max attributes. -->
+      <input disabled type="number" name="fno" id="fno" value="0018245" />
+      <br />
+      <br />
+      <div>Select Your Gender</div>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <br />
+      <br />
+      <label for="Education">Select Your Education</label>
+      <!-- select creates a dropdown list of options. -->
+      <select name="Education" id="Education">
+        <optgroup label="primary">
+          <option value="1" disabled>Class 1</option>
+          <option value="2" disabled>Class 2</option>
+          <option value="3" disabled>Class 3</option>
+          <option value="4" disabled>Class 4</option>
+          <option value="5">Class 5</option>
+          <option value="6">Class 6</option>
+          <option value="7">Class 7</option>
+        </optgroup>
+        <optgroup label="middle">
+          <!-- selected sets the default selected option. -->
+          <option value="8" selected>Class 8 (Middle)</option>
+        </optgroup>
+        <optgroup label="matric">
+          <option value="9">Class 9</option>
+          <option value="10">Class 10 (Matric / O level)</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+      <label for="resume">Add resume Here</label>
+      <!-- File input allows uploading one or more files. accept filters file types. -->
+      <input multiple accept="*" type="file" name="resume" id="resume" />
+      <br />
+      <br />
+      <div>Please Leave a Comment</div>
+      <!-- textarea is used for longer, multi-line text input. -->
+      <textarea cols="50" rows="20" name="comment" id="comment"></textarea>
+      <br />
+      <br />
+      <!-- Reset clears the form fields. -->
+      <input type="reset" value="Reset Form" />
+      <!-- Submit sends the form data to the server. -->
+      <input type="submit" value="Submit Form" />
+    </form>
+  </body>
+</html>
