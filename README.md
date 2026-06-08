@@ -2,11 +2,9 @@
 
 ## Overview
 
-This folder contains HTML code and projects that I learned through **Code With Harry's YouTube Tutorials**, PDF notes, websites, and other learning resources. It showcases my journey from beginner to advanced HTML concepts.
+This Repository contains HTML code  that I learned through **Code With Harry's** YouTube Tutorials, PDF notes, websites, and other learning resources. It showcases my journey from beginner to advanced HTML concepts.
 
 ## Learning Path
-
-### Beginner Level
 
 - HTML Fundamentals
 - HTML Tags and Elements
@@ -16,9 +14,6 @@ This folder contains HTML code and projects that I learned through **Code With H
 - Images and Media
 - Lists and Tables
 - Forms and Input Elements
-
-### Intermediate Level
-
 - Semantic HTML
 - Accessibility Features
 - SEO Best Practices
@@ -26,44 +21,21 @@ This folder contains HTML code and projects that I learned through **Code With H
 - Data Attributes
 - HTML5 Features
 - Canvas and SVG Basics
-
-### Advanced Level
-
-- Complex Form Validation
-- Web Components Concepts
-- Progressive Enhancement
-- HTML with Web APIs
-- Responsive HTML Structure
-- Performance Optimization
-
 ## Learning Resources
 
 - 📺 **Code With Harry** - YouTube Tutorials
 - 📄 **PDF Notes** - Study Materials
 - 🌐 **Websites** - Reference Documentation
-- 💻 **Hands-on Practice** - Project-based Learning
 
-## Folder Structure
+## How to Use This Repository
 
-This folder contains various HTML projects and exercises demonstrating:
-
-- Proper HTML structure
-- Semantic HTML elements
-- Form handling
-- Media embedding
-- Accessibility features
-- Real-world applications
-
-## How to Use This Folder
-
-1. Browse through the files to find different HTML topics
-2. Each file contains HTML code with examples and explanations
-3. Open the HTML files in your browser to see them in action
-4. Review the code comments for detailed explanations
+1. Browse through the folders to find different HTML topics
+2. Each folder contains 1 or more HTML files
+3. Open the HTML files in your browser
+4. Review the code comments for explanations
 5. Modify and experiment with the code to learn better
 
 ## Topics Covered
-
 - Document structure and boilerplate
 - HTML elements and tags
 - Forms and user input
@@ -79,4 +51,5 @@ This folder contains various HTML projects and exercises demonstrating:
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/hassanbinzubair/CSS_Learned_By_Code_With_Harry.git
+   git clone https://github.com/hassanbinzubair/HTML_Learned_By_Code_With_Harry.git
+   ```
